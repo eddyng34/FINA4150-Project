@@ -89,7 +89,7 @@ def build_iv_surface(df, S0, r=0):
 # ========================================
 # 4. LOCAL VOLATILITY – FINAL CORRECT VERSION (log-moneyness!)
 # ========================================
-def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.30, N_T=50, N_K=90, q=0.0):
+def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.50, N_T=50, N_K=90, q=0.0):
     """
     Calibrate local volatility surface (Dupire) on a grid uniform in log-moneyness.
     - iv_surf(t, m, grid=False) expects t = time, m = log(K/S0).
@@ -103,7 +103,7 @@ def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.30, N_T=50, N_K=90, q=0.0):
         m_min, m_max = -0.9, 0.9
 
     #T_grid = np.linspace(max(1e-4, 1e-3), min(T_max, 1.0), N_T)
-    T_grid = np.linspace(0.02, T_max, N_T)
+    T_grid = np.linspace(0.01, T_max, N_T)
     logm_grid = np.linspace(m_min, m_max, N_K)
     K_grid = S0 * np.exp(logm_grid)
 
@@ -238,11 +238,14 @@ def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.30, N_T=50, N_K=90, q=0.0):
 
     # light smoothing, then clip to realistic bounds
     lv = median_filter(lv, size=(3, 3))
-    lv = np.clip(lv, 0.05, 3.0)
+    # lv = np.clip(lv, 0.05, 3.0)
 
-    # stronger wing smoothing to kill spikes
-    for j in [0, 1, 2, 3, -3, -2, -1]:
-        lv[:, j] = median_filter(lv[:, j], size=7)
+    from scipy.ndimage import gaussian_filter
+    lv = gaussian_filter(lv, sigma=(1.8, 2.5))
+
+    # # stronger wing smoothing to kill spikes
+    # for j in [0, 1, 2, 3, -3, -2, -1]:
+    #     lv[:, j] = median_filter(lv[:, j], size=7)
 
     # build spline in (T, log-moneyness)
     lv_surf = RectBivariateSpline(T_grid, logm_grid, lv, kx=3, ky=3, s=0)
@@ -332,7 +335,7 @@ def plot_volatility_surfaces(iv_surf, lv_surf, S0):
     T_lv_knots, _ = lv_surf.get_knots()
 
     T_min = max(T_iv_knots[0], T_lv_knots[0], 0.015)
-    T_max = min(T_iv_knots[-1], T_lv_knots[-1], 0.40)
+    T_max = min(T_iv_knots[-1], T_lv_knots[-1], 0.50)
 
     if T_max - T_min < 0.03:
         print("Warning: Very narrow expiry range. Skipping plot.")
