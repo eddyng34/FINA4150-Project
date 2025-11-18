@@ -89,72 +89,174 @@ def build_iv_surface(df, S0, r=0):
 # ========================================
 # 4. LOCAL VOLATILITY – FINAL CORRECT VERSION (log-moneyness!)
 # ========================================
-def calibrate_lv(iv_surf, S0, r=0, T_max=0.3, N_T=50, N_K=90):
-    T_grid = np.linspace(0.001, T_max, N_T)
-    logm_grid = np.linspace(-0.6, 0.8, N_K)        # uniform in log-moneyness ← CRUCIAL
-    K_grid = S0 * np.exp(logm_grid)                # derived from logm
+def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.30, N_T=50, N_K=90, q=0.0):
+    """
+    Calibrate local volatility surface (Dupire) on a grid uniform in log-moneyness.
+    - iv_surf(t, m, grid=False) expects t = time, m = log(K/S0).
+    - returns a RectBivariateSpline defined on (T_grid, logm_grid).
+    """
+    # build grids: use iv_surf knots to be safe if available
+    try:
+        _, m_knots = iv_surf.get_knots()
+        m_min, m_max = m_knots[0], m_knots[-1]
+    except Exception:
+        m_min, m_max = -0.9, 0.9
 
-    lv = np.zeros((len(T_grid), len(K_grid)))
-    dT = T_grid[1] - T_grid[0]
+    #T_grid = np.linspace(max(1e-4, 1e-3), min(T_max, 1.0), N_T)
+    T_grid = np.linspace(0.02, T_max, N_T)
+    logm_grid = np.linspace(m_min, m_max, N_K)
+    K_grid = S0 * np.exp(logm_grid)
 
-    for i in range(1, len(T_grid)):
-        T = T_grid[i]
-        for j in range(1, len(K_grid)-1):
+    lv = np.full((len(T_grid), len(logm_grid)), np.nan)
+
+    # finite-difference steps
+    # Use central differences where possible; fallback to forward/backward on edges
+    # small thresholds
+    eps_den = 1e-12
+    min_vol = 0.02
+    max_vol = 4.0
+
+    for i, T in enumerate(T_grid):
+        # choose dT relative to T (but never too small)
+        dT = max(1e-4, (T_grid[1] - T_grid[0]) if len(T_grid) > 1 else 1e-3)
+        for j, m in enumerate(logm_grid):
             K = K_grid[j]
-            m = logm_grid[j]
-            sigma_imp = iv_surf(T, m, grid=False)
-            if np.isnan(sigma_imp) or sigma_imp <= 0.01:
-                sigma_imp = 0.5
 
-            C = bs_call(S0, K, T, r, sigma_imp)
-            C_T = (bs_call(S0, K, T+dT, r, iv_surf(T+dT, m, grid=False) if T+dT <= T_grid[-1] else sigma_imp) - C) / dT
+            # get implied vols (central difference in m and T where possible)
+            try:
+                sig = float(iv_surf(T, m, grid=False))
+            except Exception:
+                sig = np.nan
+            if np.isnan(sig) or sig <= 1e-3:
+                # fallback to median-ish value
+                sig = 0.5
 
-            dm = logm_grid[j+1] - logm_grid[j-1]
-            C_Kp = bs_call(S0, S0*np.exp(logm_grid[j+1]), T, r, iv_surf(T, logm_grid[j+1], grid=False))
-            C_Km = bs_call(S0, S0*np.exp(logm_grid[j-1]), T, r, iv_surf(T, logm_grid[j-1], grid=False))
-            C_K  = (C_Kp - C_Km) / (S0 * np.exp(logm_grid[j]) * dm)   # dC/d(logm) → dC/dK
-            C_KK = (C_Kp - 2*C + C_Km) / (dm/2)**2
-            den = 0.5 * (np.exp(logm_grid[j]))**2 * C_KK * K**2      # adjust for chain rule
+            # --- sigma T derivative (central) ---
+            # choose points safely within grid bounds
+            T_plus = T + dT if T + dT <= T_grid[-1] else T
+            T_minus = T - dT if T - dT >= T_grid[0] else T
 
+            sig_plusT = float(iv_surf(T_plus, m, grid=False)) if T_plus != T else sig
+            sig_minusT = float(iv_surf(T_minus, m, grid=False)) if T_minus != T else sig
+            sig_T = (sig_plusT - sig_minusT) / (T_plus - T_minus) if (T_plus - T_minus) > 0 else 0.0
+
+            # --- sigma m derivative (central) ---
+            dm = logm_grid[1] - logm_grid[0] if len(logm_grid) > 1 else 1e-3
+            m_plus = logm_grid[j+1] if j+1 < len(logm_grid) else m
+            m_minus = logm_grid[j-1] if j-1 >= 0 else m
+            sig_plusm = float(iv_surf(T, m_plus, grid=False)) if m_plus != m else sig
+            sig_minusm = float(iv_surf(T, m_minus, grid=False)) if m_minus != m else sig
+            # effective dm for edges
+            dm_eff = (m_plus - m_minus) if (m_plus - m_minus) > 0 else dm
+            sig_m = (sig_plusm - sig_minusm) / dm_eff if dm_eff > 0 else 0.0
+            sig_mm = (sig_plusm - 2*sig + sig_minusm) / ( (dm_eff/2)**2 ) if dm_eff > 0 else 0.0
+
+            # --- Black-Scholes quantities for C, vega, theta ---
+            # compute d1,d2 for the current point (protect T==0)
+            T_safe = max(T, 1e-8)
+            sqrtT = np.sqrt(T_safe)
+            # d1,d2 for implied vol 'sig'
+            d1 = (np.log(S0 / K) + (r - q + 0.5 * sig**2) * T_safe) / (sig * sqrtT)
+            d2 = d1 - sig * sqrtT
+            # price and Greeks
+            # call price
+            C = bs_call(S0, K, T_safe, r, sig, q=q)
+            # vega (BS vega wrt vol)
+            vega = S0 * norm.pdf(d1) * sqrtT * np.exp(-q * T_safe)
+            # theta (BS theta: derivative wrt T) - using standard closed form
+            # Note: theta here is total derivative of BS call price wrt T (not annualised)
+            theta = (-S0 * norm.pdf(d1) * sig * np.exp(-q * T_safe) / (2 * sqrtT)
+                     - r * K * np.exp(-r * T_safe) * norm.cdf(d2)
+                     + q * S0 * np.exp(-q * T_safe) * norm.cdf(d1))
+
+            # stable C_T using theta + vega * d(sigma)/dT
+            C_T = theta + vega * sig_T
+
+            # --- compute C(m +/-) prices for finite diff in m ---
+            # use implied vols at m+ and m- (we already have sig_plusm, sig_minusm)
+            K_plus = S0 * np.exp(m_plus)
+            K_minus = S0 * np.exp(m_minus)
+            C_plus = bs_call(S0, K_plus, T_safe, r, sig_plusm, q=q)
+            C_minus = bs_call(S0, K_minus, T_safe, r, sig_minusm, q=q)
+
+            # derivatives wrt m
+            # dC/dm (central)
+            C_m = (C_plus - C_minus) / dm_eff if dm_eff > 0 else 0.0
+            # d2C/dm2
+            C_mm = (C_plus - 2*C + C_minus) / ( (dm_eff/2)**2 ) if dm_eff > 0 else 0.0
+
+            # chain rule to strike derivatives
+            # dC/dK = (1/K) * dC/dm
+            C_K = C_m / K if K != 0 else 0.0
+            # d2C/dK2 = (1/K^2) * (d2C/dm2 - dC/dm)
+            C_KK = (C_mm - C_m) / (K**2) if K != 0 else 0.0
+
+            # Dupire denominator: 0.5 * K^2 * C_KK (standard)
+            den = 0.5 * (K**2) * C_KK
+
+            # numerator: C_T
             num = C_T
 
-            if den > 1e-10 and num > 0:
-                lv[i, j] = np.sqrt(num / den)
+            # stability checks: require den > small and num > 0
+            if den > eps_den and num > 0:
+                val = num / den
+                if val > 0:
+                    lv_val = np.sqrt(val)
+                else:
+                    lv_val = sig  # fallback
             else:
-                lv[i, j] = sigma_imp
+                lv_val = sig  # fallback to implied vol
 
-    # Clean & fill
-    lv = np.where((lv < 0.05) | (lv > 4.0) | np.isnan(lv), np.nan, lv)
+            # safety clamp
+            lv_val = np.clip(lv_val, min_vol, max_vol)
+            lv[i, j] = lv_val
+
+    # Fill any remaining NaNs by interpolation along each row/col
     for i in range(lv.shape[0]):
-        row = lv[i]
+        row = lv[i, :]
         nans = np.isnan(row)
         if nans.any() and (~nans).any():
-            row[nans] = np.interp(np.flatnonzero(nans), np.flatnonzero(~nans), row[~nans])
-        lv[i] = row
+            valid_x = np.flatnonzero(~nans)
+            valid_y = row[~nans]
+            interp_idx = np.flatnonzero(nans)
+            row[nans] = np.interp(interp_idx, valid_x, valid_y)
+            lv[i, :] = row
+
     for j in range(lv.shape[1]):
         col = lv[:, j]
         nans = np.isnan(col)
         if nans.any() and (~nans).any():
-            col[nans] = np.interp(np.flatnonzero(nans), np.flatnonzero(~nans), col[~nans])
-        lv[:, j] = col
+            valid_x = np.flatnonzero(~nans)
+            valid_y = col[~nans]
+            interp_idx = np.flatnonzero(nans)
+            col[nans] = np.interp(interp_idx, valid_x, valid_y)
+            lv[:, j] = col
+
+    # final fallback
     if np.isnan(lv).any():
         lv = np.nan_to_num(lv, nan=np.nanmedian(lv))
 
-    # Short-dated boost + light smoothing
-    boost = 1.0 + 0.25 * np.exp(-35 * T_grid)[:, np.newaxis]
-    lv *= boost
-    lv = np.clip(lv, 0.4, 3.0)
-    lv = median_filter(lv, size=3)
+    # light smoothing, then clip to realistic bounds
+    lv = median_filter(lv, size=(3, 3))
+    lv = np.clip(lv, 0.05, 3.0)
 
-    # BUILD SPLINE IN (T, log-moneyness) ← THIS IS THE KEY
+    # stronger wing smoothing to kill spikes
+    for j in [0, 1, 2, 3, -3, -2, -1]:
+        lv[:, j] = median_filter(lv[:, j], size=7)
+
+    # build spline in (T, log-moneyness)
     lv_surf = RectBivariateSpline(T_grid, logm_grid, lv, kx=3, ky=3, s=0)
 
-    # CORRECT DIAGNOSTIC (now using log-moneyness!)
-    atm_vol = lv_surf(0.1, 0.0, grid=False)                    # logm = 0
-    low_vol = lv_surf(0.1, np.log(0.7), grid=False)            # logm = log(0.7)
-    print(f"Sample LV ATM (T=0.1): {atm_vol:.4f}   |   70% spot (logm={np.log(0.7):.3f}): {low_vol:.4f}  ← NOW CORRECT!")
+    # diagnostic: ATM and wings
+    try:
+        atm_vol = float(lv_surf(max(1e-4, min(0.1, T_grid[-1])), 0.0, grid=False))
+        wing_vol = float(lv_surf(max(1e-4, min(0.1, T_grid[-1])), np.log(0.7), grid=False))
+        print(f"Sample LV ATM (T~0.1): {atm_vol:.4f}   |   70% spot (logm={np.log(0.7):.3f}): {wing_vol:.4f}")
+    except Exception:
+        pass
 
     return lv_surf
+
 
 # ========================================
 # 5. MONTE CARLO – CORRECT LOG-MONEYNESS QUERY
