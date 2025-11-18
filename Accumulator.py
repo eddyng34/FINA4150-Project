@@ -156,7 +156,7 @@ def price_accumulator(fp_pct, lv_surf, S0, r=0, N=50000, seed=42):
     K_min, K_max = lv_surf.get_knots()[1][[0, -1]]
 
     S = np.full((N, weeks+1), S0)
-    shares = np.zeros(N)
+    payoff = np.zeros(N)  # Now tracks discounted total payoff per path
     active = np.ones(N, dtype=bool)
 
     for w in range(weeks):
@@ -169,33 +169,50 @@ def price_accumulator(fp_pct, lv_surf, S0, r=0, N=50000, seed=42):
         vol = np.nan_to_num(vol, nan=0.3)
 
         dW = np.random.normal(0, sqrt_dt, size=vol.shape)
-        S[active, w+1] = S[active, w] * np.exp(-0.5*vol**2*dt + vol*dW)
+        S[active, w+1] = S[active, w] * np.exp((r-0.5*vol**2)*dt + vol*dW)
 
         settle = S[active, w+1]
-        shares[active] += np.where(settle >= fp, 1.0, 2.0)
+        weekly_shares = np.where((settle >= fp) & (settle < ko), 1.0,
+                                 np.where(settle < fp, 2.0, 0.0)) * 7
+        weekly_payoff = weekly_shares * (settle - fp)
+        t_week = (w + 1) * dt
+        disc_factor = np.exp(-r * t_week)
+        payoff[active] += weekly_payoff * disc_factor
 
         ko_hit = settle >= ko
         if ko_hit.any():
-            shares[active][ko_hit] += max(0, 3 - (w+1))
-            active[active] = ~ko_hit
-        if not active.any(): break
+            # FIXED: Explicit indices for bonus addition
+            active_idx = np.where(active)[0]
+            ko_idx = active_idx[ko_hit]
+            bonus_weeks = max(0, 3 - (w + 1))
+            if bonus_weeks > 0:
+                bonus_shares = bonus_weeks * 7 * 1.0  # Min 1 share/day * 7 days/week
+                bonus_settle = settle[ko_hit]
+                bonus_payoff = bonus_shares * (bonus_settle - fp)
+                bonus_disc = np.exp(-r * t_week)  # Discount from KO time
+                payoff[ko_idx] += bonus_payoff * bonus_disc
+            active[active] = ~ko_hit  # Deactivate KO paths
+        if not active.any():
+            break
 
-    payoff = shares * S[:, -1]
     return np.mean(payoff)
 
 # ========================================
 # 6. SOLVE FP XXX%
 # ========================================
-def solve_fp_xxx(S0, iv_surf):
-    lv_surf = calibrate_lv(iv_surf, S0)
+#Define r = 0.0275
+r = 0.0275
+def solve_fp_xxx(S0, iv_surf, r):
+    lv_surf = calibrate_lv(iv_surf, S0, r)
 
     def obj(fp_pct):
-        val = price_accumulator(fp_pct, lv_surf, S0)
-        return val - 13 * S0
+        val = price_accumulator(fp_pct, lv_surf, S0, r)
+        return val
 
     try:
         fp_pct = brentq(obj, 0.80, 1.20, xtol=1e-5)
         return fp_pct * 100
+    
     except Exception as e:
         print(f"brentq failed ({e}) → grid search")
         grid = np.linspace(0.85, 1.15, 61)
@@ -211,10 +228,10 @@ if __name__ == "__main__":
 
     df, S0 = fetch_eth_options_with_prices()
     print("Building IV surface...")
-    iv_surf = build_iv_surface(df, S0)
+    iv_surf = build_iv_surface(df, S0, r)
 
     print("Calibrating cubic LV (kx=3) & solving for FP XXX%...")
-    xxx = solve_fp_xxx(S0, iv_surf)
+    xxx = solve_fp_xxx(S0, iv_surf, r)
 
     print("\n" + "="*60)
     print(f" RESULT: Forward Price (FP) = {xxx:.3f}% of Initial Spot")
