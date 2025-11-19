@@ -29,8 +29,8 @@ def fetch_eth_options_from_excel(file_path, spot=3050.0):
     # Use Mark as mid price
     df['mid'] = pd.to_numeric(df['Mark'], errors='coerce')
 
-    # IV: take IV Bid as mark IV
-    df['mark_iv'] = pd.to_numeric(df['IV Bid'], errors='coerce')
+    # IV: take average of IV Bid and IV Ask as mark IV
+    df['mark_iv'] = 0.5*(pd.to_numeric(df['IV Bid'], errors='coerce') + pd.to_numeric(df['IV Ask'], errors='coerce'))
 
     # Filter valid rows
     df = df.dropna(subset=['K', 'mid', 'mark_iv']).copy()
@@ -296,23 +296,20 @@ def price_accumulator(fp_pct, lv_surf, S0, r=0, N=50000, seed=42):
         S[active, w+1] = S[active, w] * np.exp((r - 0.5*vol**2)*dt + vol*dW)
 
         settle = S[active, w+1]
-        weekly_shares = np.where((settle >= fp) & (settle < ko), 1.0,
-                                 np.where(settle < fp, 2.0, 0.0)) * 7
+        weekly_shares = np.where(settle >= fp, 7.0, 14.0)
         weekly_payoff = weekly_shares * (settle - fp)
         disc = np.exp(-r * (w+1)*dt)
         payoff[active] += weekly_payoff * disc
 
-        ko_hit = settle >= ko
-        if ko_hit.any():
-            active_idx = np.where(active)[0]
-            ko_idx = active_idx[ko_hit]
-            bonus_weeks = max(0, 3 - (w + 1))
-            if bonus_weeks > 0:
-                bonus_payoff = bonus_weeks * 7 * (settle[ko_hit] - fp)
-                payoff[ko_idx] += bonus_payoff * disc
-            active[active] = ~ko_hit
-        if not active.any():
-            break
+        # Knock-Out logic: only active from week 4 onward (w starts from 0)
+        if w >= 3:   # i.e., weeks 4 to 13 (w = 3,4,...,12)
+            ko_hit = settle >= ko
+            if ko_hit.any():
+                # Paths that knock out: deactivate them (no more accumulation)
+                active[active] = ~ko_hit
+                if not active.any():
+                    break
+        # For weeks 0,1,2 (w=0,1,2): KO is completely ignored → nothing here
 
     print(f"Final avg weekly vol std: {np.mean(week_stds):.4f}")
     return np.mean(payoff)
