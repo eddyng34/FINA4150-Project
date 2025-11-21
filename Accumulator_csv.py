@@ -1,8 +1,4 @@
-# Accumulator_markiv.py
-# ETH OTC Accumulator – FINAL PRODUCTION VERSION
-# Local Volatility in (T, log-moneyness) → correct dynamics!
-
-import requests
+import re
 import pandas as pd
 import numpy as np
 from scipy.interpolate import RectBivariateSpline
@@ -11,12 +7,12 @@ from scipy.stats import norm
 from scipy.ndimage import median_filter
 import warnings
 warnings.filterwarnings("ignore")
+from scipy.ndimage import gaussian_filter
 
 # ========================================
-# 1. FETCH DERIBIT DATA
+# 1. Load Options Data from CSV
 # ========================================
 def fetch_eth_options_from_excel(file_path, spot=3050.0):
-    import re
     df = pd.read_excel(file_path)
 
     # Extract strike from instrument name, e.g., ETH-19NOV25-2800-C → 2800
@@ -245,7 +241,6 @@ def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.50, N_T=50, N_K=90, q=0.0):
     lv = median_filter(lv, size=(3, 3))
     # lv = np.clip(lv, 0.05, 3.0)
 
-    from scipy.ndimage import gaussian_filter
     lv = gaussian_filter(lv, sigma=(1.8, 2.5))
 
     # # stronger wing smoothing to kill spikes
@@ -284,7 +279,7 @@ def price_accumulator(fp_pct, lv_surf, S0, r=0, N=50000, seed=42):
     for w in range(weeks):
         t = w * dt
         S_c = S[active, w]
-        logm_c = np.log(S_c / S0)                  # ← LOG-MONEYNESS!
+        logm_c = np.log(S_c / S0)   # log-moneyness
         vol = lv_surf(t, logm_c, grid=False)
         vol = np.clip(vol, 0.05, 4.0)
 
@@ -424,10 +419,10 @@ def plot_volatility_surfaces(iv_surf, lv_surf, S0):
 
 if __name__ == "__main__":
 
-    print("ETH Accumulator Pricer – FINAL VERSION")
+    print("ETH Accumulator Pricer")
     print("="*60)
 
-    # Load CSV instead of API
+    # Load CSV
     csv_file = "ETH-Option Data.xlsx"
     df, S0 = fetch_eth_options_from_excel(csv_file, spot=3050.0)
 
