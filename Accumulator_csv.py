@@ -312,7 +312,7 @@ def price_accumulator(fp_pct, lv_surf, S0, r=0, N=50000, seed=42):
 # ========================================
 # 6. SOLVER
 # ========================================
-r = 0.0275
+r = 0 # Justified by getcsv_proveRis0.py
 def solve_fp_xxx(S0, iv_surf):
     lv_surf = calibrate_lv(iv_surf, S0, r)
     def obj(p): return price_accumulator(p, lv_surf, S0, r)
