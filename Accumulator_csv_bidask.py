@@ -97,13 +97,13 @@ def build_iv_surface(df, S0, r=0, iv_col='bid_iv'):
     return RectBivariateSpline(T_grid, m_grid, iv_grid, kx=3, ky=3, s=0)
 
 # ========================================
-# 4. LOCAL VOLATILITY – FINAL CORRECT VERSION (log-moneyness!)
+# 4. LOCAL VOLATILITY SURFACE (log-moneyness)
 # ========================================
 def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.50, N_T=50, N_K=90, q=0.0):
     """
-    Calibrate local volatility surface (Dupire) on a grid uniform in log-moneyness.
-    - iv_surf(t, m, grid=False) expects t = time, m = log(K/S0).
-    - returns a RectBivariateSpline defined on (T_grid, logm_grid).
+    Calibrate local volatility surface (Dupire) on a grid uniform in log-moneyness
+    - iv_surf(t, m, grid=False) expects t = time, m = log(K/S0)
+    - returns a RectBivariateSpline defined on (T_grid, logm_grid)
     """
     # build grids: use iv_surf knots to be safe if available
     try:
@@ -127,7 +127,7 @@ def calibrate_lv(iv_surf, S0, r=0.0, T_max=0.50, N_T=50, N_K=90, q=0.0):
     max_vol = 4.0
 
     for i, T in enumerate(T_grid):
-        # choose dT relative to T (but never too small)
+        # choose dT relative to T
         dT = max(1e-4, (T_grid[1] - T_grid[0]) if len(T_grid) > 1 else 1e-3)
         for j, m in enumerate(logm_grid):
             K = K_grid[j]
@@ -330,7 +330,7 @@ def solve_fp_xxx(S0, iv_surf, label):
     return fp_pct * 100
 
 # ========================================
-# 7. FINAL BULLETPROOF PLOTTING – NO grid=True EVER!
+# 7. PLOTTING
 # ========================================
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -353,11 +353,11 @@ def plot_volatility_surfaces(iv_surf, lv_surf, S0):
 
     TT, MM = np.meshgrid(T_plot, logm_plot, indexing='ij')
 
-    # THIS IS THE KEY: use np.vectorize + grid=False → 100% safe
+    # use np.vectorize + grid=False to be 100% safe
     eval_iv = np.vectorize(lambda t, m: iv_surf(t, m, grid=False))
     eval_lv = np.vectorize(lambda t, m: lv_surf(t, m, grid=False))
 
-    print("Evaluating surfaces for plotting (this takes ~2 seconds)...")
+    print("Evaluating surfaces for plotting...")
     IV = eval_iv(TT, MM) * 100
     LV = eval_lv(TT, MM) * 100
 
