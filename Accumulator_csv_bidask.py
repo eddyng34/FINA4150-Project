@@ -325,7 +325,7 @@ r = 0 # Justified by getcsv_proveRis0.py
 def solve_fp_xxx(S0, iv_surf, label):
     lv_surf = calibrate_lv(iv_surf, S0, r)
     def obj(p): return price_accumulator(p, lv_surf, S0, r)
-    fp_pct = brentq(obj,-0.1, 1.10, xtol=1e-5)
+    fp_pct = brentq(obj,0.6, 1.10, xtol=1e-5)
     print(f"Brentq converged to {fp_pct*100:.3f}% ({label})")
     return fp_pct * 100
 
