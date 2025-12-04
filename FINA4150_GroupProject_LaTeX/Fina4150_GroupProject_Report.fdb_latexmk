@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber Fina4150_GroupProject_Report"] 0 "Fina4150_GroupProject_Report.bcf" "Fina4150_GroupProject_Report.bbl" "Fina4150_GroupProject_Report" 1764862868.74723 -1
-  "Fina4150_GroupProject_Report.bcf" 1764862868 107445 a8c08c97e8c62074bccc8004cd69a983 "pdflatex"
+["biber Fina4150_GroupProject_Report"] 0 "Fina4150_GroupProject_Report.bcf" "Fina4150_GroupProject_Report.bbl" "Fina4150_GroupProject_Report" 1764863012.52333 -1
+  "Fina4150_GroupProject_Report.bcf" 1764863011 107445 a8c08c97e8c62074bccc8004cd69a983 "pdflatex"
   (generated)
   "Fina4150_GroupProject_Report.bbl"
   "Fina4150_GroupProject_Report.blg"
   (rewritten before read)
-["pdflatex"] 1764862864.31055 "c:/Users/eddyn/桌面/FINA4150-Project/FINA4150_GroupProject_LaTeX/Fina4150_GroupProject_Report.tex" "Fina4150_GroupProject_Report.pdf" "Fina4150_GroupProject_Report" 1764862868.74813 2
+["pdflatex"] 1764863008.16438 "c:/Users/eddyn/桌面/FINA4150-Project/FINA4150_GroupProject_LaTeX/Fina4150_GroupProject_Report.tex" "Fina4150_GroupProject_Report.pdf" "Fina4150_GroupProject_Report" 1764863012.52433 2
   "C:/Users/eddyn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1764856301 94578 3d7812996b5e70e7dd3d06c67bb78c06 ""
   "C:/Users/eddyn/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1764856100 13333552 a279b187ff17110c5f19882e8bf47639 ""
   "C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1557959318 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
@@ -307,11 +307,11 @@
   "Fina4150_GroupProject_LV1.png" 1764854910 226371 30328feb0d1b5019b0f6a02e16f4e644 ""
   "Fina4150_GroupProject_LV2.png" 1764854910 110740 ad5a8aa5b3935e78dbbb047ec5167c7a ""
   "Fina4150_GroupProject_RF1.jpeg" 1764854910 94431 315bea1141f039c7665cfd9f1c1572f5 ""
-  "Fina4150_GroupProject_Report.aux" 1764862868 8977 5066505dfbc15f71d082e47eb4647bfd "pdflatex"
+  "Fina4150_GroupProject_Report.aux" 1764863011 8977 5066505dfbc15f71d082e47eb4647bfd "pdflatex"
   "Fina4150_GroupProject_Report.bbl" 1764862765 0 d41d8cd98f00b204e9800998ecf8427e "biber Fina4150_GroupProject_Report"
-  "Fina4150_GroupProject_Report.tex" 1764862858 14037 75507ef6bf1aefca2dae8d1875c873a2 ""
-  "Fina4150_GroupProject_Report.toc" 1764862868 1999 62775ba6e2ae691383f33ebf4aaaf9cd "pdflatex"
-  "c:/Users/eddyn/桌面/FINA4150-Project/FINA4150_GroupProject_LaTeX/Fina4150_GroupProject_Report.tex" 1764862858 14037 75507ef6bf1aefca2dae8d1875c873a2 ""
+  "Fina4150_GroupProject_Report.tex" 1764862978 14054 a801932d1a39f6fc1df63bcd66f5243f ""
+  "Fina4150_GroupProject_Report.toc" 1764863011 1999 62775ba6e2ae691383f33ebf4aaaf9cd "pdflatex"
+  "c:/Users/eddyn/桌面/FINA4150-Project/FINA4150_GroupProject_LaTeX/Fina4150_GroupProject_Report.tex" 1764862978 14054 a801932d1a39f6fc1df63bcd66f5243f ""
   "fina_dept_logo_resized.pdf" 1764854910 139192 4d8d246492af0d76c0dab5505be7989b ""
   "sleek-listings.sty" 1764854910 4298 a2fe6d1806e7661f7024df506e5a475c ""
   "sleek-theorems.sty" 1764854910 3963 31696cf1d59747146a2f53eb2bb6cd9f ""

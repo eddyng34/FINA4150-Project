@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  4 DEC 2025 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  4 DEC 2025 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2328,13 +2328,13 @@ Package logreq Info: Writing requests to 'Fina4150_GroupProject_Report.run.xml'.
 Here is how much of TeX's memory you used:
  53893 strings out of 467870
  1093233 string characters out of 5418355
- 2072333 words of memory out of 5000000
+ 2072384 words of memory out of 5000000
  81793 multiletter control sequences out of 15000+600000
  699967 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  124i,12n,146p,1092b,1861s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Fina4150_GroupProject_Report.pdf (13 pages, 995899 bytes).
+Output written on Fina4150_GroupProject_Report.pdf (13 pages, 996034 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  80 named destinations out of 1000 (max. 500000)
