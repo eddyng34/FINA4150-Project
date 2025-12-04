@@ -21,7 +21,11 @@
 \institute{\includegraphics[scale=8]{fina_dept_logo_resized.pdf}\\[2cm]FINA4150}
 \faculty{OTC Accumulator on Crypto -- Written Report}
 \title{Group Project Question 3}
-\author{Lin Chun Tat 1155193613\\Ng Tsz Ho 1155175257\\asdasdasda\\Ho Man Hin 1155193238}
+\author{
+	Chan Cheuk Hang 115570210\\
+	Ho Man Hin 1155193238\\
+	Lin Chun Tat 1155193613\\
+	Ng Tsz Ho 1155175257}
 \date{\today}
 
 \def\tbs{\textbackslash}
@@ -96,7 +100,7 @@
 	\section{Mathematical Foundation}
 	Mathematically, implied volatility $(\sigma_{\text{imp}})$ is obtained by numerically solve for $\sigma_{\text{imp}}$ in the following equation:
 	\[
-		C=f(\sigma_{\text{imp}},\cdot)
+	C=f(\sigma_{\text{imp}},\cdot)
 	\]
 	where $C$ is the value of the option and $f$ is a pricing model depending on $\sigma_{\text{imp}}$ . However, since Deribit offers dataset for $\sigma_{\text{imp}}$, we used the dataset instead. We confirmed the validity of the dataset by solving for the $\sigma_{\text{imp}}$ using Newton’s method.
 	\section{Methodology}
@@ -117,15 +121,15 @@
 	We implemented the classic Dupire equation, which relates the local variance to the partial derivatives of the Call price surface $C(K,T):$
 	
 	\[
-		\sigma_{\text{loc}}^2(K, T) =
-		\frac{\pdv{C}{T}+(r-q)K\pdv{C}{K}+qC}{\dfrac12K^2\pdv[2]{C}{K}}
+	\sigma_{\text{loc}}^2(K, T) =
+	\frac{\pdv{C}{T}+(r-q)K\pdv{C}{K}+qC}{\dfrac12K^2\pdv[2]{C}{K}}
 	\]
 	
 	Given that the risk-free rate $r$ and dividend yield $q$  are set to zero for this analysis, the equation simplifies to the ratio of the time-decay of the option price to the curvature of the price with respect to the strike:
 	\[
-		\sigma_\text{loc} (K,T)
-		=
-		\sqrt{\frac{\pdv{C}{T}}{\dfrac12K^2\pdv[2]{C}{K}}}
+	\sigma_\text{loc} (K,T)
+	=
+	\sqrt{\frac{\pdv{C}{T}}{\dfrac12K^2\pdv[2]{C}{K}}}
 	\]
 	\section{Numerical Implementation}
 	The calibration was performed in Python using a discretized grid approach. The implementation steps were as follows:
@@ -175,7 +179,7 @@
 	\section{Underlying Price Dynamics}
 	We model the ETH price using the local volatility extension of geometric Brownian motion:
 	\[
-		\odif{S_t} = rS_t\odif{t}+\sigma_{\text{loc}}(t,\,S_t)S_t\odif{W_t}
+	\odif{S_t} = rS_t\odif{t}+\sigma_{\text{loc}}(t,\,S_t)S_t\odif{W_t}
 	\]
 	where
 	\begin{itemize}
@@ -185,8 +189,8 @@
 	\section{Path Discretisation}
 	We simulate paths on a weekly grid ($\Delta t= 7/365.25$ years) using the exact Euler–Maruyama scheme:
 	\[
-		S_{t + \Delta t} = S_t \exp\left[ \left(r - \frac{1}{2} \sigma_{\mathrm{loc}}^2(t,S_t)\right) \Delta t + \sigma_{\mathrm{loc}}(t,S_t) \sqrt{\Delta t}\, Z \right], 
-		\qquad Z \sim \mathcal{N}(0,1)
+	S_{t + \Delta t} = S_t \exp\left[ \left(r - \frac{1}{2} \sigma_{\mathrm{loc}}^2(t,S_t)\right) \Delta t + \sigma_{\mathrm{loc}}(t,S_t) \sqrt{\Delta t}\, Z \right], 
+	\qquad Z \sim \mathcal{N}(0,1)
 	\]
 	At each weekly step (in week loop), local volatility is re-evaluated at the current calendar time t and the simulated spot level $S_t$ using the calibrated Dupire surface (cubic spline in time and log-moneyness), illustrated in following code:
 	\begin{python}
@@ -227,7 +231,7 @@
 	\end{python}
 	\paragraph{Cash settlement each week}
 	\begin{itemize}
-	\item Aggergate the difference between the settle price and forward price * the shares accumulated to the payoff
+		\item Aggergate the difference between the settle price and forward price * the shares accumulated to the payoff
 	\end{itemize}
 	\vspace{-1.3em}
 	\begin{python}
@@ -252,13 +256,13 @@
 	\end{python}
 	\subsection{Solving the Zero-Cost Forward Price}
 	\begin{itemize}
-		\item \pyth+brentq+ finds the unique root of Expected payoff (FP) = 0
+		\item \pyth+brentq+ finds the unique root of Expected payoff (FP) $=$ 0
 		\item The wide bracket [0.60, 1.10] safely contains the solution in all market conditions
-		\item Convergence tolerance $10^{-5}$ i.e. final precision better than 0.001 \% of spot
+		\item Convergence tolerance $10^{-5}$ i.e. final precision better than 0.001\% of spot
 	\end{itemize}
 	The fair Forward Price that makes the contract zero-cost is:
 	\begin{itemize}
-		\item Bid side (client sells accumulator to desk): 84.2329% of spot, $2,569.10
-		\item Ask side (client buys accumulator from desk): 83.7660% of spot, $2,554.86
+		\item Bid side (client sells accumulator to desk): 84.2329\% of spot, \$2,569.10
+		\item Ask side (client buys accumulator from desk): 83.7660\% of spot, \$2,554.86
 	\end{itemize}
 \end{document}
