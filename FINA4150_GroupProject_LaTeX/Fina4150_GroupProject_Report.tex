@@ -226,7 +226,10 @@
 		weekly_shares = np.where(settle >= fp, 7.0, 14.0)
 	\end{python}
 	\paragraph{Cash settlement each week}
-	\hfill\null{}
+	\begin{itemize}
+	\item Aggergate the difference between the settle price and forward price * the shares accumulated to the payoff
+	\end{itemize}
+	\vspace{-1.3em}
 	\begin{python}
 		weekly_payoff = weekly_shares * (settle - fp)
 		disc = np.exp(-r * (w+1)*dt)

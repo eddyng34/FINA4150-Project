@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.4)  4 DEC 2025 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  4 DEC 2025 23:41
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./Fina4150_GroupProject_Report.tex
-(Fina4150_GroupProject_Report.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+**c:/Users/eddyn/桌面/FINA4150-Project/FINA4150_GroupProject_LaTeX/Fina4150_GroupProject_Report.tex
+(c:/Users/eddyn/桌面/FINA4150-Project/FINA4150_GroupProject_LaTeX/Fina4150_GroupProject_Report.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -23,25 +24,21 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen149
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen150
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count284
@@ -89,24 +86,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/derivative\derivative.s
-ty (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/derivative\derivative.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-11-06 L3 programming layer (loader) 
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
-Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials
- for LaTeX
+Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials for LaTeX
 \l__deriv_gcd_counter_int=\count297
 \l__deriv_vmo_int=\count298
 \l__deriv_var_count_int=\count299
@@ -114,8 +104,7 @@ Package: derivative 2024/02/08 v1.4 Nice and easy derivatives and differentials
 \l__deriv_tmpb_int=\count301
 \l__deriv_seq_pos_int=\count302
 \l__deriv_sort_max_int=\count303
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \enitkv@toks@=\toks22
 \labelindent=\skip54
@@ -124,15 +113,12 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box55
 \enit@count@id=\count304
 \enitdp@description=\count305
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip55
 \thanksmargin=\skip56
 \droptitle=\skip57
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.s
-ty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty
 Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
 \l__tblr_a_int=\count306
 \l__tblr_c_int=\count307
@@ -254,7 +240,7 @@ Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
 \l__tblr_last_cell_table_dp_dim=\dimen267
 \l__tblr_last_vline_wd_dim=\dimen268
 \l__tblr_tikz_node_box=\box83
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count344
 \l__siunitx_number_exponent_fixed_int=\count345
@@ -270,28 +256,18 @@ Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
 \l__siunitx_angle_marker_box=\box84
 \l__siunitx_angle_unit_box=\box85
 \l__siunitx_compound_count_int=\count354
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
-ns.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count355
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -311,8 +287,8 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_unit_tmp_int=\count356
 \l__siunitx_unit_position_int=\count357
 \l__siunitx_unit_total_int=\count358
- (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen274
 \ar@mcellbox=\box92
 \extrarowheight=\dimen275
@@ -320,8 +296,7 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \extratabsurround=\skip58
 \backup@length=\skip59
 \ar@cellbox=\box93
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen276
 \lightrulewidth=\dimen277
@@ -340,51 +315,36 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count361
 \@lastruleclass=\count362
 \@thisrulewidth=\dimen288
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
 \XKV@depth=\count363
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.st
-y
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen289
 \Gin@req@width=\dimen290
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
-ty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box94
 )
@@ -393,8 +353,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen293
 \tc@ury=\dimen294
 Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen295
@@ -405,11 +364,10 @@ File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 \adjbox@pheight=\dimen300
 \adjbox@pdepth=\dimen301
 \adjbox@ptotalheight=\dimen302
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count364
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box95
 \sift@deathcycles=\count365
@@ -417,18 +375,14 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@roff=\dimen304
 )
 ==> First Aid for varwidth.sty applied!
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count366
 \c@@ppsavesec=\count367
 \c@@ppsaveapp=\count368
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pythonhighlight\pythonh
-ighlight.sty
-Package: pythonhighlight 2024/03/18 python code highlighting; provided by Olivi
-er Verdier <olivier.verdier@gmail.com>
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pythonhighlight\pythonhighlight.sty
+Package: pythonhighlight 2024/03/18 python code highlighting; provided by Olivier Verdier <olivier.verdier@gmail.com>
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count369
 \lst@gtempboxa=\box96
 \lst@token=\toks27
@@ -441,28 +395,31 @@ er Verdier <olivier.verdier@gmail.com>
 \lst@newlines=\count373
 \lst@lineno=\count374
 \lst@maxwidth=\dimen308
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count375
 \lst@skipnumbers=\count376
 \lst@framebox=\box97
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
 
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -472,56 +429,39 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.s
-ty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
-)))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+))) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count377
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2045.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2047.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2049.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2050.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2051.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2053.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2050.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2052.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2054.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2055.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2056.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2058.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2083.
 \U@D=\dimen309
 \l@unhyphenated=\language79
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count378
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4175.
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
-Language: english 2017/06/06 v3.3r English support from the babel system
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex)
 Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 12.
-)
+(babel)             from babel-en.ini. Reported on input line 4298.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
@@ -530,20 +470,17 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )) (sleek.sty
 Package: sleek 2023/09/18 v1.2.3 Sleek
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks28
 \inpenc@posthook=\toks29
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\utf8.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\utf8.def
 File: utf8.def 2022/06/07 v1.3c UTF-8 support
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\omsenc.dfu
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\omsenc.dfu
 File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -554,8 +491,7 @@ File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1enc.dfu
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1enc.dfu
 File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -603,8 +539,7 @@ File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.dfu
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.dfu
 File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -883,8 +818,7 @@ File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.dfu
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.dfu
 File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -976,8 +910,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
    defining Unicode char U+FEFF (decimal 65279)
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -1011,16 +944,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-6.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 116.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 \MT@toks=\toks30
 \MT@tempbox=\box98
@@ -1034,26 +963,20 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count380
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
-tex.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
-
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip60
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count381
@@ -1068,11 +991,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen317
 \Gm@layoutvoffset=\dimen318
 \Gm@dimlist=\toks32
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
 \f@nch@headwidth=\skip61
 \f@nch@offset@elh=\skip62
 \f@nch@offset@erh=\skip63
@@ -1088,8 +1008,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip73
 \f@nch@widthR=\skip74
 \@temptokenb=\toks33
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
 \FN@temptoken=\toks34
 \footnotemargin=\dimen319
@@ -1097,12 +1016,9 @@ Package footmisc Info: Declaring symbol style bringhurst on input line 549.
 Package footmisc Info: Declaring symbol style chicago on input line 557.
 Package footmisc Info: Declaring symbol style wiley on input line 566.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 577.
-
 Package footmisc Info: Declaring symbol style lamport* on input line 597.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 618
-.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 618.
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@reset=\count384
 \csq@gtype=\count385
@@ -1111,18 +1027,16 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@maxlvl=\count388
 \csq@tshold=\count389
 \csq@ltx@everypar=\toks35
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 ))
 
-! LaTeX Error: Option clash for package enumitem.
+sleek.sty:37: LaTeX Error: Option clash for package enumitem.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1139,56 +1053,43 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count390
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
-ty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen320
 \Hy@linkcounter=\count391
 \Hy@pagecounter=\count392
- (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count393
- (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -1203,21 +1104,16 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count394
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen321
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count395
 \Field@Width=\dimen322
@@ -1234,33 +1130,24 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 \c@Hfootnote=\count398
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count399
 \c@bookmark@seq@number=\count400
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip75
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
-File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
-)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count401
-)) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/qrcode\qrcode.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/qrcode\qrcode.sty
 Package: qrcode 2015/01/08 v1.51 QR code generation
 \c@qr@i=\count402
 \c@qr@j=\count403
@@ -1287,19 +1174,17 @@ Package: qrcode 2015/01/08 v1.51 QR code generation
 \c@qr@hexchars=\count421
 \qr@newforcount=\count422
 \c@qr@divisionsremaining=\count423
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
-Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2025/10/21 v1.2g Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
@@ -1307,14 +1192,12 @@ Package bm Info: No bold for \OMX/lmex/m/n, using \pmb.
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/esint\esint.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/esint\esint.sty
 Package: esint 
 \symlargesymbolsA=\mathgroup9
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count424
 \calc@Bcount=\count425
@@ -1326,8 +1209,7 @@ LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count426
 \calc@Cskip=\skip81
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count427
@@ -1348,18 +1230,16 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count428
 \float@exts=\toks36
 \float@box=\box100
 \@float@everytoks=\toks37
 \@floatcapt=\box101
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen334
 \captionmargin=\dimen335
@@ -1376,36 +1256,28 @@ Package caption Info: Standard document class detected.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count431
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count432
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip83
 \multirow@cntb=\count433
 \multirow@dima=\skip84
 \bigstrutjot=\dimen342
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
-y
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
- (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks38
 \c@algorithm=\count434
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
-ode.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
-cx.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -1421,13 +1293,12 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip87
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count442
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count443
@@ -1489,8 +1360,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \c@mincompwidth=\count488
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -1581,13 +1451,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip109
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 \c@textcitecount=\count557
 \c@textcitetotal=\count558
@@ -1605,30 +1474,22 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-co
-mp.bbx
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
 File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
-x
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
 File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
-bx
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count566
 \c@bbx:relatedtotal=\count567
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-co
-mp.cbx
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count568
 \c@cbx@tempcntb=\count569
@@ -1648,39 +1509,30 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-08-13 L3 programming layer (loader) 
+(biblatex)             2025-11-06 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
-.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write4
-
-Excluding comment 'comment')) (sleek-title.sty
+ Excluding comment 'comment')) (sleek-title.sty
 Package: sleek-title 2022/09/13 v1.2.0 Sleek Title
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
 Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
 Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 767.
@@ -1689,8 +1541,7 @@ Package zref Info: New property: page on input line 769.
 )
 \c@abspage=\count572
 Package zref Info: New property: abspage on input line 67.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2025/03/13 v1.3e reserve vertical space
 )
 \mdf@templength=\skip110
@@ -1734,44 +1585,22 @@ Package: needspace 2025/03/13 v1.3e reserve vertical space
 \mdf@subsubtitlebelowskip@length=\skip147
 \mdf@subsubtitleinneraboveskip@length=\skip148
 \mdf@subsubtitleinnerbelowskip@length=\skip149
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks39
 \pgfutil@tempdima=\dimen343
 \pgfutil@tempdimb=\dimen344
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box102
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks40
 \pgfkeys@temptoks=\toks41
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-libraryfiltered.code.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks42
 ))
 \pgf@x=\dimen345
@@ -1794,76 +1623,32 @@ libraryfiltered.code.tex
 \t@pgf@tokb=\toks44
 \t@pgf@tokc=\toks45
 \pgf@sys@id@count=\count578
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
+))) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count579
 \pgfsyssoftpath@bigbuffer@items=\count580
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen355
 \pgfmath@count=\count581
 \pgfmath@box=\box103
 \pgfmath@toks=\toks46
 \pgfmath@stack@operand=\toks47
 \pgfmath@stack@operation=\toks48
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count582
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
-tex)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen356
 \pgf@picmaxx=\dimen357
@@ -1879,130 +1664,75 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen367
 \pgf@zx=\dimen368
 \pgf@zy=\dimen369
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen370
 \pgf@path@lasty=\dimen371
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen372
 \pgf@shorten@start@additional=\dimen373
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box104
 \pgf@hbox=\box105
 \pgf@layerbox@main=\box106
 \pgf@picture@serial@count=\count583
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen374
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen375
 \pgf@pt@y=\dimen376
 \pgf@pt@temp=\dimen377
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen378
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen379
 \pgf@sys@shading@range@num=\count584
 \pgf@shadingcount=\count585
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box107
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
+))) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box108
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen380
 \pgf@nodesepend=\dimen381
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
-y
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen382
 \pgffor@skip=\dimen383
 \pgffor@stack=\toks49
 \pgffor@toks=\toks50
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count586
 \pgfplotmarksize=\dimen384
@@ -2023,21 +1753,16 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count588
 \tikznumberofcurrentchild=\count589
 \tikz@fig@count=\count590
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count591
 \pgfmatrixcurrentcolumn=\count592
 \pgf@matrix@numberofcolumns=\count593
 )
 \tikz@expandcount=\count594
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
+))) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
 \mdf@frametitlebox=\box113
@@ -2083,15 +1808,12 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \c@mdf@env@ii=\count598
 \c@mdf@zref@counter=\count599
 Package zref Info: New property: mdf@pagevalue on input line 895.
-) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
 Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count600
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count601
 \FP@xia=\count602
@@ -2102,44 +1824,33 @@ Package: fp-basic 1996/05/13
 \FP@regb=\count607
 \FP@regs=\count608
 \FP@times=\count609
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
 Package: fp-snap 1995/04/05
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
 Package: fp-exp 1995/04/03
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
 Package: fp-trigo 1995/04/14
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
 Package: fp-pas 1994/08/29
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count610
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
 Package: fp-upn 1996/10/21
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 ))
 \topheight=\skip177
 \logoheight=\skip178
 \titleskipabove=\skip179
 \titleskipbelow=\skip180
-)
-(sleek-theorems.sty
+) (sleek-theorems.sty
 Package: sleek-theorems 2022/11/18 v1.2.1 Sleek Theorems
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks51
 \thm@bodyfont=\toks52
@@ -2150,37 +1861,28 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip182
 \thm@headsep=\skip183
 \dth@everypar=\toks56
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thmtools.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thmtools.sty
 Package: thmtools 2023/05/04 v0.76
 \thmt@toks=\toks57
 \c@thmt@dummyctr=\count611
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-patch.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-patch.sty
 Package: thm-patch 2023/05/04 v0.76
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\parseargs.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\parseargs.sty
 Package: parseargs 2023/05/04 v0.76
 \@parsespec=\toks58
-)) (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-kv.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-kv.sty
 Package: thm-kv 2023/05/04 v0.76
 Package thm-kv Info: Theorem names will be uppercased on input line 42.
 Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-autoref.st
-y
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-autoref.sty
 Package: thm-autoref 2023/05/04 v0.76
- (C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\aliasctr.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\aliasctr.sty
 Package: aliasctr 2023/05/04 v0.76
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-listof.sty
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-listof.sty
 Package: thm-listof 2023/05/04 v0.76
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-restate.st
-y
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-restate.sty
 Package: thm-restate 2023/05/04 v0.76
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-amsthm.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/thmtools\thm-amsthm.sty
 Package: thm-amsthm 2023/05/04 v0.76
 \thmt@style@headstyle=\toks59
 ))
@@ -2195,28 +1897,22 @@ Package: thm-amsthm 2023/05/04 v0.76
 \c@fmd-method=\count620
 ) (sleek-listings.sty
 Package: sleek-listings 2023/09/18 v1.2.1 Sleek Listings
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata
-.sty
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata.sty
 Package: inconsolata 2019/05/17 v1.12
- `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+ `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 \zifour@ocount=\count621
-))
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-
-(Fina4150_GroupProject_Report.aux)
+ (Fina4150_GroupProject_Report.aux)
 \openout1 = `Fina4150_GroupProject_Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -2238,16 +1934,11 @@ LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
 
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
-slations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `tra
-nslations-basic-dictionary')
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 43.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 43.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count622
 \scratchdimen=\dimen393
@@ -2260,15 +1951,10 @@ ii
 \MPnumerator=\count626
 \makeMPintoPDFobject=\count627
 \everyMPtoPDFconversion=\toks61
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count628
@@ -2292,10 +1978,8 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2336,9 +2020,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
-x
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -2347,14 +2029,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `Fina4150_GroupProject_Report.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Fina4150_GroupProject_Report.bbl' not found.
-
-No file Fina4150_GroupProject_Report.bbl.
+Package biblatex Info: ... file 'Fina4150_GroupProject_Report.bbl' found.
+ (Fina4150_GroupProject_Report.bbl)
 Package biblatex Info: Reference section=0 on input line 43.
 Package biblatex Info: Reference segment=0 on input line 43.
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -2407,28 +2087,20 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 44.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 44.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-4.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 44.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-4.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 44.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-44.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 44.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-44.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 44.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2438,66 +2110,47 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 44.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
-
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
-
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 4
-4.
-
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
+LaTeX Font Info:    Trying to load font information for U+esint on input line 44.
+ (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
-)
-
-[1
+) [1
 
 
-{C:/Users/linto/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/lint
-o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./fina_dept_logo
-_resized.pdf>] (Fina4150_GroupProject_Report.toc)
+{C:/Users/eddyn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./fina_dept_logo_resized.pdf>]
+No file Fina4150_GroupProject_Report.toc.
 \tf@toc=\write6
 \openout6 = `Fina4150_GroupProject_Report.toc'.
-
-
 
 [1
 
 
 ]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-7.
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 47.
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.59 	\chapter
               {Data Preparation} [1
 
-{C:/Users/linto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:
-/Users/linto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 Chapter 2.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 62
-.
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 62.
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
@@ -2506,19 +2159,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Fina4150_GroupProject_RF1.jpeg, id=61, 997.7275pt x 542.025pt>
+<Fina4150_GroupProject_RF1.jpeg, id=28, 997.7275pt x 542.025pt>
 File: Fina4150_GroupProject_RF1.jpeg Graphic file (type jpg)
 <use Fina4150_GroupProject_RF1.jpeg>
 Package pdftex.def Info: Fina4150_GroupProject_RF1.jpeg  used on input line 92.
-
 (pdftex.def)             Requested size: 364.19667pt x 197.84988pt.
+ [2
 
-
-[2
-
-{C:/Users/linto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1
--0.enc}]
-
+{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2526,23 +2174,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3{C:/Users/linto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
-c}{C:/Users/linto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <
-./Fina4150_GroupProject_RF1.jpeg>]
+[3{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./Fina4150_GroupProject_RF1.jpeg>]
 Chapter 3.
-<Fina4150_GroupProject_IV1.png, id=73, 652.68843pt x 612.03656pt>
+<Fina4150_GroupProject_IV1.png, id=43, 652.68843pt x 612.03656pt>
 File: Fina4150_GroupProject_IV1.png Graphic file (type png)
 <use Fina4150_GroupProject_IV1.png>
 Package pdftex.def Info: Fina4150_GroupProject_IV1.png  used on input line 105.
-
 (pdftex.def)             Requested size: 318.66948pt x 298.82657pt.
-
-
 [4
 
-{C:/Users/linto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}
-]
-
+{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2552,12 +2193,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5 <./Fina4150_GroupProject_IV1.png>]
 Chapter 4.
-
-
 [6
 
 ]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2566,32 +2204,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-<Fina4150_GroupProject_LV1.png, id=100, 687.56876pt x 511.9125pt>
+<Fina4150_GroupProject_LV1.png, id=78, 687.56876pt x 511.9125pt>
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
-<Fina4150_GroupProject_LV2.png, id=101, 693.59125pt x 522.95375pt>
+<Fina4150_GroupProject_LV2.png, id=79, 693.59125pt x 522.95375pt>
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
 
 Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
@@ -2601,7 +2234,6 @@ Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 
 Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
@@ -2611,7 +2243,6 @@ Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
 
 Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
@@ -2621,14 +2252,11 @@ Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
 Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
-
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 
 Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
  [][] 
  []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2639,8 +2267,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <./Fina4150_GroupProject_LV1.png> <./Fina4150_GroupProject_LV2.png>]
 Chapter 5.
-(C:\Users\linto\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
+(C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 192.
@@ -2655,12 +2283,9 @@ LaTeX Font Warning: Font shape `T1/zi4/m/sl' undefined
 
 LaTeX Font Info:    Font shape `T1/zi4/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 196.
-
-
 [9
 
 ]
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2670,7 +2295,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10]
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2679,41 +2303,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11] (Fina4150_GroupProject_Report.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
  ***********
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'Fina4150_GroupProject_Report.run.xml'
-.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Fina4150_GroupProject_Report
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Fina4150_GroupProject_Report.run.xml'.
 \openout1 = `Fina4150_GroupProject_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53896 strings out of 468255
- 1092875 string characters out of 5440153
- 2063956 words of memory out of 5000000
- 81414 multiletter control sequences out of 15000+600000
- 697407 words of font info for 151 fonts, out of 8000000 for 9000
+ 53893 strings out of 467870
+ 1093233 string characters out of 5418355
+ 2072333 words of memory out of 5000000
+ 81793 multiletter control sequences out of 15000+600000
+ 699967 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 124i,12n,139p,1027b,1858s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/linto/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/
-Inconsolata-zi4b.pfb><C:/Users/linto/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/linto/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/linto/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/linto/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/linto/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/linto/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/linto/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/linto/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/linto/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/linto/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Fina4150_GroupProject_Report.pdf (13 pages, 999649 bytes).
+ 124i,12n,146p,1092b,1861s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Fina4150_GroupProject_Report.pdf (13 pages, 995899 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
+ 282 PDF objects out of 1000 (max. 8388607)
  80 named destinations out of 1000 (max. 500000)
  45230 words of extra memory for PDF output out of 51595 (max. 10000000)
 
