@@ -47,58 +47,7 @@
 \derivset{\pdv}[style-frac=\dfrac]
 \begin{document}
 	\maketitle
-
-\pagenumbering{roman}
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{chapter}{Contents}
-
-\begin{center}
-    {\LARGE\bfseries Contents}
-    \vspace{2em}
-\end{center}
-
-\noindent\textbf{1 Executive Summary} \dotfill 1
-
-\vspace{0.8em}
-\noindent\textbf{2 Data Preparation} \dotfill 2\\
-\addtolength{\leftskip}{2em}
-2.1 Option Data \dotfill 2\\
-2.2 Risk-Free Rate \dotfill 3\\
-\addtolength{\leftskip}{-2em}
-
-\vspace{0.8em}
-\noindent\textbf{3 Implied Volatility} \dotfill 4\\
-\addtolength{\leftskip}{2em}
-3.1 Mathematical Foundation \dotfill 4\\
-3.2 Methodology \dotfill 4\\
-3.3 Interpretation \dotfill 5\\
-\addtolength{\leftskip}{-2em}
-
-\vspace{0.8em}
-\noindent\textbf{4 Local Volatility} \dotfill 6\\
-\addtolength{\leftskip}{2em}
-4.1 Model Selection \dotfill 6\\
-4.2 Mathematical Formulation \dotfill 6\\
-4.3 Numerical Implementation \dotfill 6\\
-\addtolength{\leftskip}{2em}
-4.3.1 Grid Construction \dotfill 7\\
-4.3.2 Computation of Partial Derivatives \dotfill 7\\
-4.3.3 Surface Regularization (Smoothing) \dotfill 7\\
-4.3.4 Boundary Constraints \dotfill 8\\
-\addtolength{\leftskip}{-4em}
-
-\vspace{0.8em}
-\noindent\textbf{5 Monte Carlo Simulation} \dotfill 9\\
-\addtolength{\leftskip}{2em}
-5.1 Underlying Price Dynamics \dotfill 9\\
-5.2 Path Discretisation \dotfill 9\\
-5.3 Implementation of Contract Features \dotfill 10\\
-5.4 Solving the Zero-Cost Forward Price \dotfill 11\\
-\addtolength{\leftskip}{-2em}
-
-\cleardoublepage
-\pagenumbering{arabic}
+	\romantableofcontents
 	\chapter{Executive Summary}
 	As of 19 November 2025, with ETH spot at \$3,050, we priced a 13-week weekly-settled accumulator featuring 2× gearing (7 ETH accumulated when spot $\ge$ Forward Price, 14 ETH when below), a 110\% knock-out effective from week 4, and a 3-week guaranteed accumulation period. The contract is structured to have zero upfront premium.
 	
