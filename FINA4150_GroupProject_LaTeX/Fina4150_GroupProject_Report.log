@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  4 DEC 2025 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.4)  5 DEC 2025 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1912,32 +1912,32 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (Fina4150_GroupProject_Report.aux)
+
+No file Fina4150_GroupProject_Report.aux.
 \openout1 = `Fina4150_GroupProject_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 43.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 48.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count622
@@ -1961,13 +1961,13 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen395
 \MT@vwid@rightmargin=\dimen396
-LaTeX Info: Redefining \microtypecontext on input line 43.
-Package microtype Info: Applying patch `item' on input line 43.
-Package microtype Info: Applying patch `toc' on input line 43.
-Package microtype Info: Applying patch `eqnum' on input line 43.
-Package microtype Info: Applying patch `footnote' on input line 43.
-Package microtype Info: Applying patch `verbatim' on input line 43.
-LaTeX Info: Redefining \microtypesetup on input line 43.
+LaTeX Info: Redefining \microtypecontext on input line 48.
+Package microtype Info: Applying patch `item' on input line 48.
+Package microtype Info: Applying patch `toc' on input line 48.
+Package microtype Info: Applying patch `eqnum' on input line 48.
+Package microtype Info: Applying patch `footnote' on input line 48.
+Package microtype Info: Applying patch `verbatim' on input line 48.
+LaTeX Info: Redefining \microtypesetup on input line 48.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2015,7 +2015,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 43.
+Package hyperref Info: Link coloring ON on input line 48.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
@@ -2031,8 +2031,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Fina4150_GroupProject_Report.bbl' found.
  (Fina4150_GroupProject_Report.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
+Package biblatex Info: Reference section=0 on input line 48.
+Package biblatex Info: Reference segment=0 on input line 48.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
@@ -2077,84 +2077,107 @@ Package microtype Info: Character `029' is missing
 <fina_dept_logo_resized.pdf, id=6, 17.25145pt x 18.38068pt>
 File: fina_dept_logo_resized.pdf Graphic file (type pdf)
 <use fina_dept_logo_resized.pdf>
-Package pdftex.def Info: fina_dept_logo_resized.pdf  used on input line 44.
+Package pdftex.def Info: fina_dept_logo_resized.pdf  used on input line 49.
 (pdftex.def)             Requested size: 138.01111pt x 147.04492pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 44.
+(mdframed)              on input line 49.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 44.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 44.
+ mdframed uses option nobreak mdframed on input line 49.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 49.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 44.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 49.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 44.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 49.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 44.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 49.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 44.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+(Font)              <6> on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 44.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 49.
  (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
 ) [1
 
 
 {C:/Users/eddyn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./fina_dept_logo_resized.pdf>]
-No file Fina4150_GroupProject_Report.toc.
-\tf@toc=\write6
-\openout6 = `Fina4150_GroupProject_Report.toc'.
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [1
 
 
 ]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 47.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 103.
 (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 	\chapter
-              {Data Preparation} [1
+l.115 	\chapter
+               {Data Preparation} [1
+
 
 {C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 Chapter 2.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 62.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 118.
 (C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 62.
+(Font)              scaled to size 10.40245pt on input line 118.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2162,7 +2185,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 <Fina4150_GroupProject_RF1.jpeg, id=28, 997.7275pt x 542.025pt>
 File: Fina4150_GroupProject_RF1.jpeg Graphic file (type jpg)
 <use Fina4150_GroupProject_RF1.jpeg>
-Package pdftex.def Info: Fina4150_GroupProject_RF1.jpeg  used on input line 92.
+Package pdftex.def Info: Fina4150_GroupProject_RF1.jpeg  used on input line 148.
 (pdftex.def)             Requested size: 364.19667pt x 197.84988pt.
  [2
 
@@ -2179,7 +2202,7 @@ Chapter 3.
 <Fina4150_GroupProject_IV1.png, id=43, 652.68843pt x 612.03656pt>
 File: Fina4150_GroupProject_IV1.png Graphic file (type png)
 <use Fina4150_GroupProject_IV1.png>
-Package pdftex.def Info: Fina4150_GroupProject_IV1.png  used on input line 105.
+Package pdftex.def Info: Fina4150_GroupProject_IV1.png  used on input line 161.
 (pdftex.def)             Requested size: 318.66948pt x 298.82657pt.
 [4
 
@@ -2207,54 +2230,54 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <Fina4150_GroupProject_LV1.png, id=78, 687.56876pt x 511.9125pt>
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
 <Fina4150_GroupProject_LV2.png, id=79, 693.59125pt x 522.95375pt>
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
 
-Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
+Overfull \hbox (2.89316pt too wide) in paragraph at lines 221--221
  [][] 
  []
 
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 
-Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
+Overfull \hbox (2.89316pt too wide) in paragraph at lines 221--221
  [][] 
  []
 
 File: Fina4150_GroupProject_LV1.png Graphic file (type png)
 <use Fina4150_GroupProject_LV1.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV1.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 162.69054pt.
 
-Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
+Overfull \hbox (2.89316pt too wide) in paragraph at lines 221--221
  [][] 
  []
 
 File: Fina4150_GroupProject_LV2.png Graphic file (type png)
 <use Fina4150_GroupProject_LV2.png>
-Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 165.
+Package pdftex.def Info: Fina4150_GroupProject_LV2.png  used on input line 221.
 (pdftex.def)             Requested size: 218.51521pt x 164.75523pt.
 
-Overfull \hbox (2.89316pt too wide) in paragraph at lines 165--165
+Overfull \hbox (2.89316pt too wide) in paragraph at lines 221--221
  [][] 
  []
 
@@ -2271,18 +2294,18 @@ Chapter 5.
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 192.
+(Font)              scaled to size 11.39996pt on input line 248.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 192.
+(Font)              scaled to size 9.49997pt on input line 248.
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 193.
+(Font)              scaled to size 9.49997pt on input line 249.
 
 
 LaTeX Font Warning: Font shape `T1/zi4/m/sl' undefined
-(Font)              using `T1/zi4/m/n' instead on input line 196.
+(Font)              using `T1/zi4/m/n' instead on input line 252.
 
 LaTeX Font Info:    Font shape `T1/zi4/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 196.
+(Font)              scaled to size 9.49997pt on input line 252.
 [9
 
 ]
@@ -2326,17 +2349,17 @@ Package logreq Info: Writing requests to 'Fina4150_GroupProject_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53893 strings out of 467870
- 1093233 string characters out of 5418355
- 2072384 words of memory out of 5000000
- 81793 multiletter control sequences out of 15000+600000
- 699967 words of font info for 151 fonts, out of 8000000 for 9000
+ 53903 strings out of 467870
+ 1093191 string characters out of 5418355
+ 2072453 words of memory out of 5000000
+ 81798 multiletter control sequences out of 15000+600000
+ 706384 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  124i,12n,146p,1092b,1861s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/eddyn/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Fina4150_GroupProject_Report.pdf (13 pages, 996034 bytes).
+Output written on Fina4150_GroupProject_Report.pdf (13 pages, 998909 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
+ 297 PDF objects out of 1000 (max. 8388607)
  80 named destinations out of 1000 (max. 500000)
- 45230 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 49366 words of extra memory for PDF output out of 51595 (max. 10000000)
 

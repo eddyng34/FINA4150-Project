@@ -12,6 +12,7 @@
 \usepackage{sleek-title}
 \usepackage{sleek-theorems}
 \usepackage{sleek-listings}
+
 \definecolor{VbaGreen}{RGB}{0,128,0}
 \lstset{
 	language=[Visual]Basic,
@@ -22,7 +23,7 @@
 \faculty{OTC Accumulator on Crypto -- Written Report}
 \title{Group Project Question 3}
 \author{
-	Chan Cheuk Hang 115570210\\
+	Chan Cheuk Hang 1155170210\\
 	Ho Man Hin 1155193238\\
 	Lin Chun Tat 1155193613\\
 	Ng Tsz Ho 1155175257}
@@ -46,7 +47,58 @@
 \derivset{\pdv}[style-frac=\dfrac]
 \begin{document}
 	\maketitle
-	\romantableofcontents
+
+\pagenumbering{roman}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Contents}
+
+\begin{center}
+    {\LARGE\bfseries Contents}
+    \vspace{2em}
+\end{center}
+
+\noindent\textbf{1 Executive Summary} \dotfill 1
+
+\vspace{0.8em}
+\noindent\textbf{2 Data Preparation} \dotfill 2\\
+\addtolength{\leftskip}{2em}
+2.1 Option Data \dotfill 2\\
+2.2 Risk-Free Rate \dotfill 3\\
+\addtolength{\leftskip}{-2em}
+
+\vspace{0.8em}
+\noindent\textbf{3 Implied Volatility} \dotfill 4\\
+\addtolength{\leftskip}{2em}
+3.1 Mathematical Foundation \dotfill 4\\
+3.2 Methodology \dotfill 4\\
+3.3 Interpretation \dotfill 5\\
+\addtolength{\leftskip}{-2em}
+
+\vspace{0.8em}
+\noindent\textbf{4 Local Volatility} \dotfill 6\\
+\addtolength{\leftskip}{2em}
+4.1 Model Selection \dotfill 6\\
+4.2 Mathematical Formulation \dotfill 6\\
+4.3 Numerical Implementation \dotfill 6\\
+\addtolength{\leftskip}{2em}
+4.3.1 Grid Construction \dotfill 7\\
+4.3.2 Computation of Partial Derivatives \dotfill 7\\
+4.3.3 Surface Regularization (Smoothing) \dotfill 7\\
+4.3.4 Boundary Constraints \dotfill 8\\
+\addtolength{\leftskip}{-4em}
+
+\vspace{0.8em}
+\noindent\textbf{5 Monte Carlo Simulation} \dotfill 9\\
+\addtolength{\leftskip}{2em}
+5.1 Underlying Price Dynamics \dotfill 9\\
+5.2 Path Discretisation \dotfill 9\\
+5.3 Implementation of Contract Features \dotfill 10\\
+5.4 Solving the Zero-Cost Forward Price \dotfill 11\\
+\addtolength{\leftskip}{-2em}
+
+\cleardoublepage
+\pagenumbering{arabic}
 	\chapter{Executive Summary}
 	As of 19 November 2025, with ETH spot at \$3,050, we priced a 13-week weekly-settled accumulator featuring 2× gearing (7 ETH accumulated when spot $\ge$ Forward Price, 14 ETH when below), a 110\% knock-out effective from week 4, and a 3-week guaranteed accumulation period. The contract is structured to have zero upfront premium.
 	
@@ -133,13 +185,13 @@
 	\]
 	\section{Numerical Implementation}
 	The calibration was performed in Python using a discretized grid approach. The implementation steps were as follows:
-	\subsubsection{Grid Construction}
+	\subsection{Grid Construction}
 	We constructed a dense rectangular grid to ensure numerical stability:
 	\begin{itemize}
 		\item Time Dimension $(T)$: 50 linearly spaced points from 0.01 years to 0.50 years
 		\item Space Dimension $(K)$: 90 points spaced uniformly in log-moneyness $(m=\ln(K/S_0))$, covering the range $m\in[-0.9,\,0.9]$
 	\end{itemize}
-	\subsubsection{Computation of Partial Derivatives}
+	\subsection{Computation of Partial Derivatives}
 	Directly differentiating market prices can be unstable. Instead, we computed the derivatives semi-analytically using the Black-Scholes Greeks and the implied volatility surface constructed in the previous section:
 	
 	Time Derivative $\left(\pdv{C}/{T}\right)$: We applied the total derivative rule, combining the standard Black-Scholes Theta $\Theta_{BS}$ with the sensitivity to changes in implied volatility (Vega):
@@ -152,14 +204,14 @@
 	\[
 	\pdv[2]{C}{K} = \frac{1}{K^2}\left(\pdv[2]{C}{m}-\pdv{C}{m}\right)
 	\]
-	\subsubsection{Surface Regularization (Smoothing)}
+	\subsection{Surface Regularization (Smoothing)}
 	To ensure a stable Monte Carlo simulation, we applied a two-stage smoothing process to the resulting local volatility matrix:
 	\begin{itemize}
 		\item Median Filter: A $3\times3$ kernel was applied to remove isolated outliers without blurring sharp edges
 		\item Gaussian Filter: We applied a Gaussian kernel with $\sigma_{T}=1.8$ (time axis), and $\sigma_K=2.5$ (strike axis) to ensure the surface is $C^1$ continuous
 	\end{itemize}
 	\newpage
-	\subsubsection{Boundary Constraints}
+	\subsection{Boundary Constraints}
 	To prevent numerical explosion at the grid boundaries, the final local volatility values were clipped to a realistic range of $[2\%,400\%]$. Any remaining NaN values resulting from arbitrage violations were filled via linear interpolation.\\
 	Graph produced:
 	\begin{center}
@@ -204,7 +256,7 @@
 		dW = np.random.normal(0, sqrt_dt, size=vol.shape)
 		S[active, w+1] = S[active, w] * np.exp((r - 0.5*vol**2)*dt + vol
 	\end{python}
-	\subsection{Implementation of Contract Features}
+	\section{Implementation of Contract Features}
 	100,000 paths (fixed seed 42) are simulated. The term-sheet logic is coded as follows:
 	\paragraph{Initial settings (outside the weeks loop)}
 	\begin{itemize}
@@ -254,7 +306,7 @@
 		if not active.any():
 		break
 	\end{python}
-	\subsection{Solving the Zero-Cost Forward Price}
+	\section{Solving the Zero-Cost Forward Price}
 	\begin{itemize}
 		\item \pyth+brentq+ finds the unique root of Expected payoff (FP) $=$ 0
 		\item The wide bracket [0.60, 1.10] safely contains the solution in all market conditions

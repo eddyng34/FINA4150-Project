@@ -474,9 +474,6 @@ INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.s
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT .\Fina4150_GroupProject_Report.aux
-INPUT .\Fina4150_GroupProject_Report.aux
-INPUT Fina4150_GroupProject_Report.aux
 OUTPUT Fina4150_GroupProject_Report.aux
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
@@ -572,7 +569,8 @@ INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.
 INPUT C:\Users\eddyn\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
-OUTPUT Fina4150_GroupProject_Report.toc
+INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
@@ -606,6 +604,7 @@ INPUT .\Fina4150_GroupProject_IV1.png
 INPUT .\Fina4150_GroupProject_IV1.png
 INPUT .\Fina4150_GroupProject_IV1.png
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT .\Fina4150_GroupProject_LV1.png
 INPUT .\Fina4150_GroupProject_LV1.png
 INPUT .\Fina4150_GroupProject_LV1.png
@@ -642,7 +641,6 @@ INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.s
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\inconsolata\t1-zi4r-0.tfm
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\inconsolata\t1-zi4r-0.tfm
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\inconsolata\t1-zi4b-0.tfm
-INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT Fina4150_GroupProject_Report.aux
 OUTPUT Fina4150_GroupProject_Report.run.xml
 INPUT C:\Users\eddyn\AppData\Local\Programs\MiKTeX\fonts\type1\public\inconsolata\Inconsolata-zi4b.pfb
